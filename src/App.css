@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.postSection {
+    background-color: #d8bfd8;
+    display: flex;
+    flex-direction: column;
+    padding:125px;
+    padding-top: 0;
+    border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.postTitle {
+    background-color: wheat;
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.postContent {
+    padding: 15px;
+    margin: 15px;
+    background-color: tomato;
+
 }
 
-.App-link {
-  color: #61dafb;
+.buttonsContainer {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.newPostForm {
+    border-radius: 5px;
+    background-color: palegoldenrod;
+    padding: 25px 125px;
+
 }
